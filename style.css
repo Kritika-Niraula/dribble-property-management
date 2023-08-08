@@ -1,0 +1,650 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  padding-top: 12px;
+}
+
+.logo-img {
+  width: 27px;
+  height: 27px;
+  margin-top: -3px;
+}
+
+.logo-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(0, 0%, 2%);
+  margin-left: 8px;
+}
+/*---end of logo---*/
+
+.nav-items {
+  margin-left: 105px;
+}
+
+#bold {
+  color: hsl(0, 0%, 2%);
+  font-weight: 500;
+  padding-left: 0px !important;
+  padding-bottom: 5px;
+}
+
+.items-name {
+  padding-top: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(0, 0%, 31%);
+  padding-left: 30px;
+}
+/*----end of nav-items-----*/
+
+.header-item {
+  padding-top: 5px;
+}
+
+.header-icon {
+  background-color: hsl(0, 0%, 96%);
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color: hsl(0, 0%, 22%);
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-online {
+  margin-left: -23px;
+  margin-top: -4px;
+  color: hsl(113, 74%, 44%);
+  font-size: 20px;
+}
+/*-----end of header-icon----*/
+
+.profile {
+  margin-left: 30px;
+  background-color: hsl(0, 0%, 96%);
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.profile-photo img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.profile-user-name {
+  margin-left: 10px;
+}
+
+.user-name {
+  font-size: 10px;
+  color: hsl(0, 0%, 2%);
+}
+
+.user-post {
+  font-size: 8px;
+  color: hsl(0, 0%, 63%);
+  text-align: start;
+}
+
+.angle-down {
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 25px;
+  font-size: 10px;
+}
+/*----end of profile-----*/
+/*---end of header----*/
+
+.flex-container {
+  margin-top: 5px;
+  border-top: 1px solid hsl(0, 0%, 96%);
+}
+
+.left {
+  border-right: 1px solid hsl(0, 0%, 96%);
+  max-width: 250px;
+}
+
+#navigation-box {
+  margin-top: 24px;
+  background-color: hsl(0, 0%, 98%);
+  padding-top: 6px;
+  padding-bottom: 3px;
+  border-radius: 50px;
+  margin-right: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+.navigation {
+  border-right: 2px solid hsl(0, 0%, 96%);
+  width: 170px;
+}
+
+.navigation-menu {
+  margin-bottom: 15px;
+  color: hsl(278, 3%, 31%);
+  margin-left: 12px;
+}
+
+#last-navigation-menu {
+  margin-bottom: 90px;
+}
+
+.navigation-icon {
+  margin-right: 10px;
+  margin-left: 5px;
+  color: hsl(278, 3%, 31%);
+}
+
+.navigation-item {
+  font-size: 14px;
+}
+/*----end of navigation-menu-box----*/
+
+.nav-angle-down {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+
+.nav-angle-down i {
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid hsl(0, 0%, 96%);
+  background-color: #fff;
+}
+/*--end of nav-angle-down-----*/
+
+.user-dialogue-box {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.search-box {
+  padding-top: 15px;
+}
+
+.search {
+  border: 1px solid hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 70%);
+  border-radius: 10px;
+  background-color: #fff;
+  padding-bottom: 3px;
+}
+
+.search-icon {
+  padding-left: 8px;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.search-text {
+  margin-left: 10px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+/*---end of search-box---*/
+
+.nav-user {
+  margin-top: 15px;
+}
+
+.nav-profile-photo img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.nav-profile {
+  margin-left: 10px;
+}
+
+.nav-user-name {
+  font-size: 14px;
+  color: hsl(0, 0%, 22%);
+}
+
+.nav-user-text {
+  font-size: 11px;
+  color: hsl(0, 0%, 70%);
+}
+
+#nav-user-bold-text {
+  color: black;
+}
+
+.nav-icon-online {
+  margin-top: -8px;
+  color: hsl(113, 74%, 44%);
+  font-size: 26px;
+  margin-left: 12px;
+}
+
+/*---end of nav-user---*/
+
+.broadcast-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.broadcast {
+  background-color: black;
+  color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.broadcast-icon {
+  margin-right: 10px;
+}
+
+.broadcast-text {
+  font-size: 12px;
+}
+/*---end of broadcast---*/
+/*---end of user-dialogue-box--*/
+
+.center {
+  max-width: 400px;
+  margin-left: 12px;
+  height: 100%;
+}
+
+.center-content {
+  border: 2px solid hsl(0, 0%, 96%);
+  margin-top: 24px;
+  border-radius: 10px;
+}
+
+.residential-box {
+  width: 350px;
+  height: 185px;
+}
+
+.residential-img {
+  height: 185px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.residential-button {
+  position: absolute;
+  top: 230px;
+  color: hsl(0, 0%, 22%);
+  background-color: hsl(0, 0%, 94%);
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/*---end of resident-button--*/
+
+.residential-area .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: hsl(0, 0%, 98%);
+  border-bottom: 1px solid hsl(0, 0%, 94%);
+  color: hsl(0, 0%, 22%);
+}
+
+.resident-name {
+  font-size: 14px;
+  color: hsl(0, 0%, 22%);
+  font-weight: 600;
+}
+/*---end of residential-area----*/
+
+.residential-info {
+  padding-top: 20px;
+}
+
+.resident-number {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(0, 0%, 22%);
+}
+
+.resident-text {
+  font-size: 12px;
+  color: hsl(0, 0%, 32%);
+}
+/*---end of residentail-info----*/
+
+.residential-progress {
+  margin-top: 15px;
+  margin-bottom: 24px !important;
+}
+
+.progress {
+  height: 12px !important;
+  background-color: hsl(0, 0%, 96%) !important;
+  margin-bottom: 5px;
+}
+
+#second-progress {
+  background-color: hsl(43, 100%, 71%) !important;
+}
+/*---end of residentail-progress----*/
+
+.my-work-progress {
+  margin-top: 12px;
+}
+
+.work-progress {
+  width: 2px;
+  height: 50px;
+  background-color: hsl(0, 0%, 96%);
+}
+
+.my-progress {
+  width: 5px;
+  height: 12px;
+  background-color: hsl(0, 0%, 22%);
+  margin-left: -1.3px;
+  margin-top: -10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#big-progress {
+  width: 5px;
+  height: 30px;
+  background-color: hsl(0, 0%, 22%);
+  margin-left: -1.3px;
+  margin-top: -28px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#small-progress {
+  width: 5px;
+  height: 7px;
+  background-color: hsl(0, 0%, 22%);
+  margin-left: -1.3px;
+  margin-top: -5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#progress-info {
+  padding-top: 12px;
+  border-bottom: 2px solid hsl(0, 0%, 96%);
+  padding-bottom: 15px;
+}
+/*---end of my-work-progress----*/
+
+.staff {
+  margin-top: 24px;
+  font-size: 14px;
+  color: hsl(0, 0%, 22%);
+}
+
+.on-site {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.schedule {
+  background-color: hsl(0, 0%, 96%);
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size: 12px;
+  color: hsl(0, 0%, 30%);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.staff-schedule {
+  margin-top: 12px;
+}
+
+#security {
+  margin-right: 60px !important;
+}
+
+.security-title {
+  font-size: 12px;
+  color: hsl(0, 0%, 22%);
+  font-weight: 600;
+}
+
+.security-info {
+  font-size: 12px;
+  color: hsl(0, 0%, 35%);
+  margin-top: 3px;
+}
+
+#security-num {
+  font-size: 14px;
+}
+/*---end of staff----*/
+
+.staff-member {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.staff-images img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 98%);
+  margin-left: -5px;
+  object-fit: cover;
+}
+
+.members {
+  margin-left: 12px;
+  font-size: 14px;
+  color: hsl(0, 0%, 35%);
+  padding-top: 2px;
+}
+/*---end of staff-member---*/
+/*--end of main-content-center---*/
+
+.right {
+  width: 100%;
+  flex: 1;
+}
+
+.payment-box {
+  margin-top: 24px;
+  border: 2px solid hsl(0, 0%, 96%);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.payment-heading {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.payment-info-box {
+  margin-bottom: 15px;
+}
+
+.debt-icon {
+  color: hsl(341, 100%, 73%);
+  margin-right: 8px;
+}
+/*---end of paymnent-box---*/
+
+.new-request {
+  margin-top: 12px;
+  border: 2px solid hsl(0, 0%, 96%);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.unit {
+  font-size: 12px;
+  color: hsl(0, 0%, 0%);
+}
+
+#request-text {
+  margin-top: 5px;
+  color: hsl(0, 0%, 32%);
+}
+/*--end of new-request--*/
+
+.delayed-work-orders {
+  margin-top: 12px;
+  border: 2px solid hsl(0, 0%, 96%);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.book {
+  color: hsl(0, 0%, 22%);
+}
+
+.delayed-work {
+  border-top: 2px solid hsl(0, 0%, 96%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: baseline;
+}
+
+.house-number {
+  font-size: 14px;
+  color: hsl(0, 0%, 0%);
+}
+
+.work-unit {
+  font-size: 14px;
+  color: hsl(0, 0%, 30%);
+}
+
+.delayed-work-photo img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.due-work {
+  font-size: 14px;
+  color: hsl(0, 0%, 30%);
+}
+
+.delayed-user {
+  font-size: 14px;
+  color: hsl(0, 0%, 30%);
+}
+
+.work-due {
+  color: hsl(341, 100%, 73%);
+  font-size: 14px;
+}
+
+.work-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(341, 100%, 67%);
+  color: hsl(341, 48%, 88%);
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+.button-color {
+  background-color: hsl(35, 74%, 50%);
+  color: hsl(35, 66%, 91%);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.work-button-color {
+  background-color: hsl(115, 57%, 39%);
+  color: hsl(115, 41%, 76%);
+}
+
+.upcoming-units {
+  border: 2px solid hsl(0, 0%, 96%);
+  border-radius: 10px;
+}
+
+/*--end-of delayed-work-order--*/
+
+.unit-images-box {
+  margin-top: 12px;
+}
+
+.unit-images img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.unit-info {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.unit-number {
+  font-size: 14px;
+  color: hsl(0, 0%, 22%);
+  font-weight: 600;
+}
+
+.unit-area {
+  font-size: 14px;
+  color: hsl(0, 0%, 35%);
+}
+
+.rent-amount {
+  font-size: 14px;
+  color: hsl(0, 0%, 35%);
+}
+
+.date {
+  font-size: 14px;
+  color: hsl(0, 0%, 35%);
+  margin-top: 5px;
+}
+
+/*--end of main-content-right---*/
+
+.left,
+.center,
+.right {
+  height: 100%;
+}
